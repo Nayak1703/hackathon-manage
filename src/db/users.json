@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1, 
+        "fullName": "Test User",
+        "email": "test123@hireMe.com",
+        "username": "test1008",
+        "password": "Test@1234"
+    },
+    {
+        "id": 2, 
+        "fullName": "Yash Nayak",
+        "email": "yashsukantnayak@gmail.com",
+        "username": "yash1008",
+        "password": "Test@1234"
+    },
+    {
+        "id": 3, 
+        "fullName": "Radha Madhav",
+        "email": "rm@gmail.com",
+        "username": "rama1008",
+        "password": "Test@1234"
+    },
+    {
+        "id": 4, 
+        "fullName": "Sita Ram",
+        "email": "sr@gmail.com",
+        "username": "sriRam1008",
+        "password": "Test@1234"
+    }
+]

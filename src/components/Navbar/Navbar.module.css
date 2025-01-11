@@ -1,0 +1,71 @@
+.navbarParent * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarParent {
+    background-color: #240A34;
+    color: #FBF5E5;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(233, 214, 178, 0.2) 0px 2px 8px 0px;
+}
+
+.navbarBrandNamae {
+    font-family: "Montserrat", serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #FFEDD8;
+}
+.navbarSubBrandNamae{
+    color: #EABE6C;
+}
+
+.navbarBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.navbarBtns > * {
+    font-family: "Poppins", serif !important;
+}
+
+.loginBtn:hover,.profileBtn:hover{
+    background-color: #bb3d7e !important;
+    transition: 0.2s ease-out;
+}
+
+.regBtn:hover, .exploreBtn:hover {
+    border-color:#FFEDD8 !important;
+    transition: 0.2s ease-out;
+}
+
+.logoutBtn:hover {
+    border-color:#FF005C !important;
+    color: #FF005C !important;
+    transition: 0.2s ease-out;
+}
+
+
+
+@media screen and (max-width: 900px) {
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbarParent {
+        padding: 1rem;
+    }
+    .navbarBrandNamae {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+    .navbarBtns > * {
+        padding: 5px !important;
+    }
+}
