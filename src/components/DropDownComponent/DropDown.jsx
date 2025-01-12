@@ -4,7 +4,6 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
-import styles from "./DropDown.module.css";
 
 const DropDown = ({ name, state, setState, dropDownList }) => {
   const handleChange = (e) => {

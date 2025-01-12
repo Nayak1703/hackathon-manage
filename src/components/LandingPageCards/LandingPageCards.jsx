@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import TabComponent from "../Tabs/TabComponent.jsx";
 import SearchComponent from "../SearchComponent/SearchComponent.jsx";
 import DropDown from "../DropDownComponent/DropDown.jsx";
+import Card from "../Card/Card.jsx"
 import styles from "./LandingPageCards.module.css";
 
 function CustomTabPanel(props) {
@@ -22,168 +23,78 @@ function CustomTabPanel(props) {
 }
 
 const LandingPageCards = ({
-  ogHackathonsList,
   filterHackathonsList,
   setFilterHackathonsList,
+  selectedTab,
+  referenceFilterList,
+  setSelectedTab,
 }) => {
-  const [selectedTab, setSelectedTab] = useState(1);
   const [title, setTitle] = useState("");
-
   const [mode, setMode] = useState("");
   const [location, setLocation] = useState("");
-  const [fee, setFee] = useState("");
-  const [prize, setPrize] = useState("");
   const [sortBy, setSortBy] = useState("");
-
-  const [tabsFilterArr, setTabsFilterArr] = useState([]);
-
-  useEffect(() => {
-    if (title || mode || location || fee || prize || sortBy) {
-      clearFilterbtn();
-    }
-    if (title) {
-      let filterArr = ogHackathonsList.filter((ele) =>
-        ele.title.toLowerCase().includes(title)
-      );
-      setFilterHackathonsList(filterArr);
-    } else {
-      setFilterHackathonsList(ogHackathonsList);
-    }
-  }, [title]);
+  const [dropDownFilter, setDropDownFilter] = useState([]);
 
   function clearFilterbtn() {
     setMode("");
     setLocation("");
-    setFee("");
-    setPrize("");
     setSortBy("");
+    setTitle("");
   }
 
   useEffect(() => {
-    if (mode) {
-      let filterArr;
-      if (location || fee || prize || sortBy) {
-        filterArr = tabsFilterArr.filter(
-          (ele) => ele.mode.toLowerCase() === mode.toLowerCase()
-        );
-      } else {
-        filterArr = filterHackathonsList.filter(
-          (ele) => ele.mode.toLowerCase() === mode.toLowerCase()
-        );
-      }
-      setTabsFilterArr(filterArr);
-    }
-    if (location) {
-      let filterArr;
-      if (mode || fee || prize || sortBy) {
-        filterArr = tabsFilterArr.filter(
-          (ele) => ele.location.toLowerCase() === location.toLowerCase()
-        );
-      } else {
-        filterArr = filterHackathonsList.filter(
-          (ele) => ele.location.toLowerCase() === location.toLowerCase()
-        );
-      }
-      setTabsFilterArr(filterArr);
-    }
-    if (fee) {
-      let filterArr;
-
-      if (mode || location || prize || sortBy) {
-        if (fee === "Free") {
-          filterArr = tabsFilterArr.filter((ele) => ele.fee === fee);
-        } else if (fee === "LowToHigh") {
-          let feeHaveNum = tabsFilterArr.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => a.fee - b.fee);
-        } else if (fee === "HighToLow") {
-          let feeHaveNum = tabsFilterArr.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => b.fee - a.fee);
-        }
-      } else {
-        if (fee === "Free") {
-          filterArr = filterHackathonsList.filter((ele) => ele.fee === fee);
-        } else if (fee === "LowToHigh") {
-          let feeHaveNum = filterHackathonsList.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => a.fee - b.fee);
-        } else if (fee === "HighToLow") {
-          let feeHaveNum = filterHackathonsList.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => b.fee - a.fee);
-        }
-      }
-      setTabsFilterArr(filterArr);
-    }
-
-    if (prize) {
-      let filterArr;
-      if (mode || location || fee || sortBy) {
-        if (prize === "LowToHigh") {
-          let feeHaveNum = tabsFilterArr.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => a.price.first - b.price.first);
-        } else if (prize === "HighToLow") {
-          let feeHaveNum = tabsFilterArr.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => b.price.first - a.price.first);
-        }
-      } else {
-        if (prize === "LowToHigh") {
-          let feeHaveNum = filterHackathonsList.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => a.price.first - b.price.first);
-        } else if (prize === "HighToLow") {
-          let feeHaveNum = filterHackathonsList.filter(
-            (ele) => typeof ele.fee !== "string"
-          );
-          filterArr = feeHaveNum.sort((a, b) => b.price.first - a.price.first);
-        }
-      }
-      setTabsFilterArr(filterArr);
-    }
-
-    if (sortBy) {
-      let filterArr;
-      if (mode || location || fee || prize) {
-        if (sortBy.toLowerCase() === "date") {
-          console.log("yash")
-          filterArr = tabsFilterArr.sort(
-            (a, b) =>
-              new Date(a.registration_last_date) -
-              new Date(b.registration_last_date)
-          );
-        } else if (sortBy.toLowerCase() === "popularity") {
-          filterArr = tabsFilterArr.sort((a,b) => b.participate_teams - a.participate_teams);
-        }
-      } else {
-        if (sortBy.toLowerCase() === "date") {
-          console.log("nayak")
-          filterArr = filterHackathonsList.sort(
-            (a, b) =>
-              new Date(a.registration_last_date) -
-              new Date(b.registration_last_date)
-          );
-        } else if (sortBy.toLowerCase() === "popularity") {
-          filterArr = filterHackathonsList.sort((a,b) => b.participate_teams - a.participate_teams);
-        }
-      }
-      setTabsFilterArr(filterArr);
-    }
-  }, [mode, location, fee, prize, sortBy]);
+    console.log(filterHackathonsList);
+  }, [filterHackathonsList]);
 
   useEffect(() => {
-    console.log(filterHackathonsList);
-    console.log(tabsFilterArr);
-  }, [filterHackathonsList, tabsFilterArr]);
+    clearFilterbtn();
+  }, [selectedTab]);
+
+  useEffect(() => {
+    if (mode || location || sortBy || title === "" || title) {
+      let filterArrList = [...referenceFilterList];
+
+      if (title) {
+        filterArrList = filterArrList.filter((ele) =>
+          ele.title.toLowerCase().includes(title)
+        );
+      } else {
+        filterArrList = [...referenceFilterList];
+      }
+
+      if (mode) {
+        filterArrList = filterArrList.filter(
+          (ele) => ele.mode.toLowerCase() === mode.toLowerCase()
+        );
+      }
+
+      if (location) {
+        filterArrList = filterArrList.filter(
+          (ele) => ele.location.toLowerCase() === location.toLowerCase()
+        );
+      }
+
+      if (sortBy) {
+        if (sortBy === "Date") {
+          filterArrList.sort(
+            (a, b) =>
+              new Date(a.registration_last_date) -
+              new Date(b.registration_last_date)
+          );
+        } else if (sortBy === "Popularity") {
+          filterArrList.sort(
+            (a, b) => b.participate_teams - a.participate_teams
+          );
+        } else if (sortBy === "EntryFees") {
+          filterArrList.sort((a, b) => a.fee - b.fee);
+        } else if (sortBy === "PrizeMoney") {
+          filterArrList.sort((a, b) => b.price.first - a.price.first);
+        }
+      }
+
+      setFilterHackathonsList(filterArrList);
+    }
+  }, [mode, location, sortBy, title]);
 
   return (
     <div className={styles.cards_section_parent}>
@@ -223,51 +134,46 @@ const LandingPageCards = ({
             ]}
           />
           <DropDown
-            name={"Fee"}
-            state={fee}
-            setState={setFee}
-            dropDownList={["Free", "Low To High", "High To Low"]}
-          />
-          <DropDown
-            name={"Prize"}
-            state={prize}
-            setState={setPrize}
-            dropDownList={["Low To High", "High To Low"]}
-          />
-          <DropDown
             name={"SortBy"}
             state={sortBy}
             setState={setSortBy}
-            dropDownList={["Date", "Popularity"]}
+            dropDownList={["Date", "Popularity", "Entry Fees", "Prize Money"]}
           />
         </div>
-        <div className={styles.cards_section_filter_clear}>
+        <div
+          className={styles.cards_section_filter_clear}
+          onClick={clearFilterbtn}
+        >
           <p>Clear all</p>
         </div>
       </div>
       <div className={styles.cards_section_filter_selected_parent}></div>
       <div className={styles.cards_section_cards}>
-        <CustomTabPanel
-          value={selectedTab}
-          sx={{ textDecoration: "none" }}
-          index={0}
-        >
-          Item One
-        </CustomTabPanel>
-        <CustomTabPanel
-          value={selectedTab}
-          sx={{ textDecoration: "none" }}
-          index={1}
-        >
-          Item Two
-        </CustomTabPanel>
-        <CustomTabPanel
-          value={selectedTab}
-          sx={{ textDecoration: "none" }}
-          index={2}
-        >
-          Item Three
-        </CustomTabPanel>
+        {selectedTab === 0 ? (
+          <CustomTabPanel
+            value={selectedTab}
+            sx={{ textDecoration: "none" }}
+            index={0}
+          >
+            Item One
+          </CustomTabPanel>
+        ) : selectedTab === 1 ? (
+          <CustomTabPanel
+            value={selectedTab}
+            sx={{ textDecoration: "none" }}
+            index={1}
+          >
+            Item Two
+          </CustomTabPanel>
+        ) : (
+          <CustomTabPanel
+            value={selectedTab}
+            sx={{ textDecoration: "none" }}
+            index={2}
+          >
+            Item Three
+          </CustomTabPanel>
+        )}
       </div>
     </div>
   );

@@ -6,10 +6,12 @@ import HeroSection from "../HeroSection/HeroSection.jsx";
 import LandingPageCards from "../LandingPageCards/LandingPageCards.jsx";
 
 const LandingPage = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState("false");
   const [ogHackathonsList, setOgHackathonsList] = useState(hackathons);
-  const [filterHackathonsList, setFilterHackathonsList] =
-    useState(ogHackathonsList);
+  const [filterHackathonsList, setFilterHackathonsList] = useState([]);
+  const [referenceFilterList, setReferenceFilterList] = useState([])
   const [ogUserList, setOgUserList] = useState(users);
+  const [selectedTab, setSelectedTab] = useState(1);
 
   useEffect(() => {
     localStorage.setItem(
@@ -17,12 +19,23 @@ const LandingPage = () => {
       JSON.stringify([...ogHackathonsList])
     );
   }, [ogHackathonsList]);
+
   useEffect(() => {
     localStorage.setItem("usersList", JSON.stringify([...ogUserList]));
   }, [ogUserList]);
-  useEffect(() => {}, [filterHackathonsList]);
 
-  const [isLoggedIn, setIsLoggedIn] = useState("false");
+  useEffect(() => {
+    let tabFilter;
+    if(selectedTab === 0) {
+      tabFilter = ogHackathonsList.filter((ele)=> ele.status==="past")
+    } else if(selectedTab === 1) {
+      tabFilter = ogHackathonsList.filter((ele)=> ele.status==="upcoming")
+    } else if(selectedTab === 2) {
+      tabFilter = ogHackathonsList.filter((ele)=> ele.status==="current")
+    }
+    setFilterHackathonsList(tabFilter)
+    setReferenceFilterList(tabFilter)
+  }, [selectedTab]);
 
   useEffect(() => {
     function getDataFromLocalStorage() {
@@ -44,6 +57,9 @@ const LandingPage = () => {
         ogHackathonsList={ogHackathonsList}
         filterHackathonsList={filterHackathonsList}
         setFilterHackathonsList={setFilterHackathonsList}
+        selectedTab={selectedTab}
+        referenceFilterList={referenceFilterList}
+        setSelectedTab={setSelectedTab}
       />
     </>
   );
