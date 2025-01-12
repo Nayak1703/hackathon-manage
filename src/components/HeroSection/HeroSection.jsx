@@ -55,7 +55,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={styles.heroSection_media}>
-        <Animation className={styles.heroSection_media_svg}/>
+        <Animation/>
       </div>
     </div>
   );

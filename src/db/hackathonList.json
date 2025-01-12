@@ -1,1547 +1,1262 @@
 [
-    {
-        "id": 1,
-        "title": "Hackathon 4415",
-        "img": "https://random.image.tech/hackathon_34.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-10",
-        "end-date": "2024-12-16",
-        "fee": "Free",
-        "mode": "Hybrid",
-        "location": "Mumbai",
-        "team-size": 2,
-        "participate-teams": 90,
-        "registration-last-date": "2024-12-09",
-        "winner": "Team 155",
-        "organized-By": "rama1008",
-        "register-users": [
-            "rama1008",
-            "test1008",
-            "yash1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_42.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_140.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_271.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_386.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+  {
+    "id": 1,
+    "title": "AI Vision Sprint",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Collaborate and create groundbreaking solutions",
+    "start-date": "2024-12-25",
+    "end-date": "2025-01-01",
+    "fee": 1000,
+    "mode": "Online",
+    "location": "Mumbai",
+    "team-size": 2,
+    "participate_teams": 32,
+    "registration_last_date": "2024-12-24",
+    "winner": "Team Beta",
+    "organized-By": "yash1008",
+    "register-users": ["yash1008"],
+    "about": "A platform for tech minds to collaborate, learn, and innovate. Work in teams to develop solutions across various domains like AI, IoT, blockchain, and cloud computing. Expand your skills and gain recognition in the tech community.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 2,
-        "title": "Hackathon 5649",
-        "img": "https://random.image.tech/hackathon_85.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-20",
-        "end-date": "2024-12-23",
-        "fee": "Free",
-        "mode": "Offline",
-        "location": "Mumbai",
-        "team-size": 4,
-        "participate-teams": 63,
-        "registration-last-date": "2024-12-19",
-        "winner": "Team 208",
-        "organized-By": "yash1008",
-        "register-users": [
-            "test1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_15.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_196.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_250.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_374.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 2,
+    "title": "FutureForge Hack",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Empower your ideas with top-notch mentorship",
+    "start-date": "2024-12-11",
+    "end-date": "2024-12-15",
+    "fee": 500,
+    "mode": "Offline",
+    "location": "Noida",
+    "team-size": 3,
+    "participate_teams": 48,
+    "registration_last_date": "2024-12-10",
+    "winner": "Team Alpha",
+    "organized-By": "rama1008",
+    "register-users": ["rama1008", "sriRam1008", "yash1008", "test1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 3,
-        "title": "Hackathon 6369",
-        "img": "https://random.image.tech/hackathon_84.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-29",
-        "end-date": "2025-01-02",
-        "fee": 500,
-        "mode": "Offline",
-        "location": "Mumbai",
-        "team-size": 3,
-        "participate-teams": 58,
-        "registration-last-date": "2024-12-28",
-        "winner": "Team 504",
-        "organized-By": "rama1008",
-        "register-users": [
-            "yash1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_56.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_150.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_292.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_348.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 3,
+    "title": "TechExplorer",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Collaborate and create groundbreaking solutions",
+    "start-date": "2024-12-16",
+    "end-date": "2024-12-21",
+    "fee": 200,
+    "mode": "Offline",
+    "location": "Noida",
+    "team-size": 2,
+    "participate_teams": 39,
+    "registration_last_date": "2024-12-15",
+    "winner": "Team Gamma",
+    "organized-By": "test1008",
+    "register-users": ["sriRam1008", "test1008"],
+    "about": "Bring your ideas to life in this weekend-long hackathon focused on solving critical problems in sustainability, finance, and healthcare. Network, learn, and create impactful projects that could change the world.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 4,
-        "title": "Hackathon 6453",
-        "img": "https://random.image.tech/hackathon_83.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-19",
-        "end-date": "2024-12-26",
-        "fee": 1000,
-        "mode": "Offline",
-        "location": "Chennai",
-        "team-size": 3,
-        "participate-teams": 20,
-        "registration-last-date": "2024-12-18",
-        "winner": "Team 670",
-        "organized-By": "test1008",
-        "register-users": [
-            "yash1008",
-            "sriRam1008",
-            "test1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_42.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_149.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_208.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_388.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 4,
+    "title": "WebFront Warriors",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Compete with the best minds in tech",
+    "start-date": "2024-12-22",
+    "end-date": "2024-12-25",
+    "fee": 100,
+    "mode": "Hybride",
+    "location": "Noida",
+    "team-size": 2,
+    "participate_teams": 38,
+    "registration_last_date": "2024-12-21",
+    "winner": "Team Epsilon",
+    "organized-By": "sriRam1008",
+    "register-users": ["sriRam1008", "yash1008", "test1008"],
+    "about": "In this hackathon, participants will tackle real-world challenges, develop solutions, and present them to top-tier industry experts. Whether you're a beginner or a seasoned coder, there's something for everyone!",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 5,
-        "title": "Hackathon 2960",
-        "img": "https://random.image.tech/hackathon_57.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-11",
-        "end-date": "2024-12-15",
-        "fee": 700,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 2,
-        "participate-teams": 76,
-        "registration-last-date": "2024-12-10",
-        "winner": "Team 588",
-        "organized-By": "sriRam1008",
-        "register-users": [
-            "rama1008",
-            "yash1008",
-            "test1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_48.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_155.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_204.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_375.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 5,
+    "title": "NeuroNexus",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Solve complex tech challenges with creativity",
+    "start-date": "2024-12-10",
+    "end-date": "2024-12-15",
+    "fee": 1000,
+    "mode": "Hybride",
+    "location": "Delhi",
+    "team-size": 5,
+    "participate_teams": 37,
+    "registration_last_date": "2024-12-09",
+    "winner": "Team Epsilon",
+    "organized-By": "sriRam1008",
+    "register-users": ["sriRam1008"],
+    "about": "In this hackathon, participants will tackle real-world challenges, develop solutions, and present them to top-tier industry experts. Whether you're a beginner or a seasoned coder, there's something for everyone!",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 6,
-        "title": "Hackathon 7604",
-        "img": "https://random.image.tech/hackathon_60.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-22",
-        "end-date": "2024-12-29",
-        "fee": 700,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 3,
-        "participate-teams": 86,
-        "registration-last-date": "2024-12-21",
-        "winner": "Team 488",
-        "organized-By": "yash1008",
-        "register-users": [
-            "sriRam1008",
-            "yash1008",
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_16.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_150.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_221.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_320.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 6,
+    "title": "DeepHack Labs",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Collaborate and create groundbreaking solutions",
+    "start-date": "2024-12-10",
+    "end-date": "2024-12-14",
+    "fee": 700,
+    "mode": "Online",
+    "location": "Bangalore",
+    "team-size": 2,
+    "participate_teams": 21,
+    "registration_last_date": "2024-12-09",
+    "winner": "Team Alpha",
+    "organized-By": "test1008",
+    "register-users": ["yash1008", "sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 7,
-        "title": "Hackathon 6737",
-        "img": "https://random.image.tech/hackathon_5.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-15",
-        "end-date": "2024-12-20",
-        "fee": 700,
-        "mode": "Hybrid",
-        "location": "Mumbai",
-        "team-size": 2,
-        "participate-teams": 29,
-        "registration-last-date": "2024-12-14",
-        "winner": "Team 198",
-        "organized-By": "rama1008",
-        "register-users": [
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_3.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_200.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_263.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_348.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 7,
+    "title": "IoT Fusion Hack",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Solve complex tech challenges with creativity",
+    "start-date": "2024-12-14",
+    "end-date": "2024-12-20",
+    "fee": "Free",
+    "mode": "Online",
+    "location": "Mumbai",
+    "team-size": 4,
+    "participate_teams": 62,
+    "registration_last_date": "2024-12-13",
+    "winner": "Team Alpha",
+    "organized-By": "yash1008",
+    "register-users": ["sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 8,
-        "title": "Hackathon 2395",
-        "img": "https://random.image.tech/hackathon_1.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-13",
-        "end-date": "2024-12-19",
-        "fee": 500,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 5,
-        "participate-teams": 67,
-        "registration-last-date": "2024-12-12",
-        "winner": "Team 785",
-        "organized-By": "test1008",
-        "register-users": [
-            "yash1008",
-            "rama1008",
-            "test1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_91.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_136.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_224.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_344.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 8,
+    "title": "CyberHack Arena",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Create solutions that shape the future",
+    "start-date": "2024-12-15",
+    "end-date": "2024-12-18",
+    "fee": 500,
+    "mode": "Hybride",
+    "location": "Bangalore",
+    "team-size": 2,
+    "participate_teams": 50,
+    "registration_last_date": "2024-12-14",
+    "winner": "Team Beta",
+    "organized-By": "rama1008",
+    "register-users": ["sriRam1008"],
+    "about": "Bring your ideas to life in this weekend-long hackathon focused on solving critical problems in sustainability, finance, and healthcare. Network, learn, and create impactful projects that could change the world.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 9,
-        "title": "Hackathon 1922",
-        "img": "https://random.image.tech/hackathon_36.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-11",
-        "end-date": "2024-12-17",
-        "fee": "Free",
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 5,
-        "participate-teams": 47,
-        "registration-last-date": "2024-12-10",
-        "winner": "Team 644",
-        "organized-By": "rama1008",
-        "register-users": [
-            "yash1008",
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_12.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_177.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_251.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_399.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 9,
+    "title": "CryptoConquer Hack",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Create solutions that shape the future",
+    "start-date": "2024-12-17",
+    "end-date": "2024-12-22",
+    "fee": 700,
+    "mode": "Online",
+    "location": "Bhubaneswar",
+    "team-size": 4,
+    "participate_teams": 32,
+    "registration_last_date": "2024-12-16",
+    "winner": "Team Gamma",
+    "organized-By": "yash1008",
+    "register-users": ["rama1008", "yash1008", "sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 10,
-        "title": "Hackathon 8320",
-        "img": "https://random.image.tech/hackathon_92.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2024-12-16",
-        "end-date": "2024-12-20",
-        "fee": 700,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 2,
-        "participate-teams": 76,
-        "registration-last-date": "2024-12-15",
-        "winner": "Team 848",
-        "organized-By": "yash1008",
-        "register-users": [
-            "test1008",
-            "yash1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_26.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_186.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_297.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_354.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "past"
+    "status": "past"
+  },
+  {
+    "id": 10,
+    "title": "CloudCrafter",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Collaborate and create groundbreaking solutions",
+    "start-date": "2024-12-05",
+    "end-date": "2024-12-12",
+    "fee": "Free",
+    "mode": "Online",
+    "location": "Mumbai",
+    "team-size": 4,
+    "participate_teams": 84,
+    "registration_last_date": "2024-12-04",
+    "winner": "Team Epsilon",
+    "organized-By": "test1008",
+    "register-users": ["yash1008", "rama1008"],
+    "about": "In this hackathon, participants will tackle real-world challenges, develop solutions, and present them to top-tier industry experts. Whether you're a beginner or a seasoned coder, there's something for everyone!",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 11,
-        "title": "Hackathon 4801",
-        "img": "https://random.image.tech/hackathon_80.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-27",
-        "end-date": "2025-01-31",
-        "fee": 200,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 5,
-        "participate-teams": 100,
-        "registration-last-date": "2025-01-26",
-        "winner": "Team 609",
-        "organized-By": "test1008",
-        "register-users": [
-            "yash1008",
-            "sriRam1008",
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_58.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_159.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_242.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_327.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "past"
+  },
+  {
+    "id": 11,
+    "title": "CodeSprint 2025",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Compete with the best minds in tech",
+    "start-date": "2025-01-21",
+    "end-date": "2025-01-24",
+    "fee": "Free",
+    "mode": "Offline",
+    "location": "Mumbai",
+    "team-size": 2,
+    "participate_teams": 99,
+    "registration_last_date": "2025-01-20",
+    "winner": "Team Beta",
+    "organized-By": "test1008",
+    "register-users": ["rama1008", "sriRam1008", "yash1008", "test1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 12,
-        "title": "Hackathon 7060",
-        "img": "https://random.image.tech/hackathon_58.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-27",
-        "end-date": "2025-02-03",
-        "fee": 1000,
-        "mode": "Hybrid",
-        "location": "Bangalore",
-        "team-size": 5,
-        "participate-teams": 34,
-        "registration-last-date": "2025-01-26",
-        "winner": "Team 809",
-        "organized-By": "test1008",
-        "register-users": [
-            "test1008",
-            "yash1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_82.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_176.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_202.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_345.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 12,
+    "title": "CloudCrafter",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Design and develop scalable tech products",
+    "start-date": "2025-01-29",
+    "end-date": "2025-02-01",
+    "fee": 700,
+    "mode": "Hybride",
+    "location": "Chennai",
+    "team-size": 5,
+    "participate_teams": 37,
+    "registration_last_date": "2025-01-28",
+    "winner": "Team Gamma",
+    "organized-By": "yash1008",
+    "register-users": ["sriRam1008", "test1008", "yash1008", "rama1008"],
+    "about": "A platform for tech minds to collaborate, learn, and innovate. Work in teams to develop solutions across various domains like AI, IoT, blockchain, and cloud computing. Expand your skills and gain recognition in the tech community.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 13,
-        "title": "Hackathon 2625",
-        "img": "https://random.image.tech/hackathon_79.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-22",
-        "end-date": "2025-01-25",
-        "fee": "Free",
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 3,
-        "participate-teams": 14,
-        "registration-last-date": "2025-01-21",
-        "winner": "Team 825",
-        "organized-By": "sriRam1008",
-        "register-users": [
-            "test1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_94.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_123.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_237.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_338.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 13,
+    "title": "FutureForge Hack",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Build, learn, and win exciting prizes",
+    "start-date": "2025-01-21",
+    "end-date": "2025-01-28",
+    "fee": 100,
+    "mode": "Online",
+    "location": "Bangalore",
+    "team-size": 3,
+    "participate_teams": 60,
+    "registration_last_date": "2025-01-20",
+    "winner": "Team Delta",
+    "organized-By": "yash1008",
+    "register-users": ["yash1008"],
+    "about": "In this hackathon, participants will tackle real-world challenges, develop solutions, and present them to top-tier industry experts. Whether you're a beginner or a seasoned coder, there's something for everyone!",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 14,
-        "title": "Hackathon 4789",
-        "img": "https://random.image.tech/hackathon_99.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-31",
-        "end-date": "2025-02-03",
-        "fee": 100,
-        "mode": "Offline",
-        "location": "Delhi",
-        "team-size": 3,
-        "participate-teams": 84,
-        "registration-last-date": "2025-01-30",
-        "winner": "Team 876",
-        "organized-By": "test1008",
-        "register-users": [
-            "yash1008",
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_99.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_135.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_237.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_345.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 14,
+    "title": "AI Vision Sprint",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Build, learn, and win exciting prizes",
+    "start-date": "2025-01-16",
+    "end-date": "2025-01-23",
+    "fee": 700,
+    "mode": "Online",
+    "location": "Bhubaneswar",
+    "team-size": 2,
+    "participate_teams": 19,
+    "registration_last_date": "2025-01-15",
+    "winner": "Team Gamma",
+    "organized-By": "yash1008",
+    "register-users": ["test1008", "rama1008"],
+    "about": "A platform for tech minds to collaborate, learn, and innovate. Work in teams to develop solutions across various domains like AI, IoT, blockchain, and cloud computing. Expand your skills and gain recognition in the tech community.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 15,
-        "title": "Hackathon 9734",
-        "img": "https://random.image.tech/hackathon_3.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-20",
-        "end-date": "2025-01-26",
-        "fee": "Free",
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 2,
-        "participate-teams": 14,
-        "registration-last-date": "2025-01-19",
-        "winner": "Team 954",
-        "organized-By": "rama1008",
-        "register-users": [
-            "yash1008",
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_89.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_150.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_242.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_357.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 15,
+    "title": "FutureForge Hack",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Collaborate and create groundbreaking solutions",
+    "start-date": "2025-01-19",
+    "end-date": "2025-01-22",
+    "fee": 1000,
+    "mode": "Hybride",
+    "location": "Chennai",
+    "team-size": 5,
+    "participate_teams": 93,
+    "registration_last_date": "2025-01-18",
+    "winner": "Team Epsilon",
+    "organized-By": "rama1008",
+    "register-users": ["sriRam1008", "yash1008", "test1008", "rama1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 16,
-        "title": "Hackathon 2327",
-        "img": "https://random.image.tech/hackathon_7.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-24",
-        "end-date": "2025-01-31",
-        "fee": 1000,
-        "mode": "Offline",
-        "location": "Bangalore",
-        "team-size": 2,
-        "participate-teams": 61,
-        "registration-last-date": "2025-01-23",
-        "winner": "Team 108",
-        "organized-By": "yash1008",
-        "register-users": [
-            "yash1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_85.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_162.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_250.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_365.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 16,
+    "title": "AI Vision Sprint",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Empower your ideas with top-notch mentorship",
+    "start-date": "2025-01-21",
+    "end-date": "2025-01-27",
+    "fee": 500,
+    "mode": "Hybride",
+    "location": "Noida",
+    "team-size": 2,
+    "participate_teams": 71,
+    "registration_last_date": "2025-01-20",
+    "winner": "Team Gamma",
+    "organized-By": "rama1008",
+    "register-users": ["test1008", "sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 17,
-        "title": "Hackathon 4043",
-        "img": "https://random.image.tech/hackathon_35.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-29",
-        "end-date": "2025-02-04",
-        "fee": 500,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 5,
-        "participate-teams": 19,
-        "registration-last-date": "2025-01-28",
-        "winner": "Team 919",
-        "organized-By": "rama1008",
-        "register-users": [
-            "test1008",
-            "yash1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_97.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_191.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_243.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_338.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 17,
+    "title": "CodeQuest",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Prototype futuristic solutions in this hackathon",
+    "start-date": "2025-01-28",
+    "end-date": "2025-01-31",
+    "fee": 200,
+    "mode": "Offline",
+    "location": "Noida",
+    "team-size": 4,
+    "participate_teams": 19,
+    "registration_last_date": "2025-01-27",
+    "winner": "Team Delta",
+    "organized-By": "sriRam1008",
+    "register-users": ["test1008", "rama1008", "sriRam1008", "yash1008"],
+    "about": "Bring your ideas to life in this weekend-long hackathon focused on solving critical problems in sustainability, finance, and healthcare. Network, learn, and create impactful projects that could change the world.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 18,
-        "title": "Hackathon 5464",
-        "img": "https://random.image.tech/hackathon_74.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-23",
-        "end-date": "2025-01-27",
-        "fee": 500,
-        "mode": "Offline",
-        "location": "Delhi",
-        "team-size": 4,
-        "participate-teams": 55,
-        "registration-last-date": "2025-01-22",
-        "winner": "Team 212",
-        "organized-By": "yash1008",
-        "register-users": [
-            "sriRam1008",
-            "yash1008",
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_43.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_170.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_224.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_332.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 18,
+    "title": "CodeSprint 2025",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Design and develop scalable tech products",
+    "start-date": "2025-01-22",
+    "end-date": "2025-01-28",
+    "fee": 500,
+    "mode": "Hybride",
+    "location": "Noida",
+    "team-size": 3,
+    "participate_teams": 92,
+    "registration_last_date": "2025-01-21",
+    "winner": "Team Beta",
+    "organized-By": "sriRam1008",
+    "register-users": ["yash1008", "sriRam1008", "rama1008", "test1008"],
+    "about": "A platform for tech minds to collaborate, learn, and innovate. Work in teams to develop solutions across various domains like AI, IoT, blockchain, and cloud computing. Expand your skills and gain recognition in the tech community.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 19,
-        "title": "Hackathon 7520",
-        "img": "https://random.image.tech/hackathon_63.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-02-03",
-        "end-date": "2025-02-09",
-        "fee": 200,
-        "mode": "Offline",
-        "location": "Mumbai",
-        "team-size": 4,
-        "participate-teams": 17,
-        "registration-last-date": "2025-02-02",
-        "winner": "Team 848",
-        "organized-By": "sriRam1008",
-        "register-users": [
-            "test1008",
-            "yash1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_93.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_138.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_298.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_319.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 19,
+    "title": "WebFront Warriors",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Innovate, learn, and build amazing projects",
+    "start-date": "2025-01-27",
+    "end-date": "2025-02-02",
+    "fee": 200,
+    "mode": "Online",
+    "location": "Chennai",
+    "team-size": 3,
+    "participate_teams": 37,
+    "registration_last_date": "2025-01-26",
+    "winner": "Team Alpha",
+    "organized-By": "yash1008",
+    "register-users": ["rama1008", "test1008", "yash1008", "sriRam1008"],
+    "about": "A platform for tech minds to collaborate, learn, and innovate. Work in teams to develop solutions across various domains like AI, IoT, blockchain, and cloud computing. Expand your skills and gain recognition in the tech community.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 20,
-        "title": "Hackathon 3880",
-        "img": "https://random.image.tech/hackathon_66.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-02-02",
-        "end-date": "2025-02-05",
-        "fee": 100,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 3,
-        "participate-teams": 34,
-        "registration-last-date": "2025-02-01",
-        "winner": "Team 377",
-        "organized-By": "yash1008",
-        "register-users": [
-            "test1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_44.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_116.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_290.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_356.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "upcoming"
+    "status": "upcoming"
+  },
+  {
+    "id": 20,
+    "title": "DataDive Sprint",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Solve complex tech challenges with creativity",
+    "start-date": "2025-01-29",
+    "end-date": "2025-02-01",
+    "fee": 500,
+    "mode": "Online",
+    "location": "Bangalore",
+    "team-size": 2,
+    "participate_teams": 25,
+    "registration_last_date": "2025-01-28",
+    "winner": "Team Zeta",
+    "organized-By": "test1008",
+    "register-users": ["sriRam1008", "rama1008"],
+    "about": "Bring your ideas to life in this weekend-long hackathon focused on solving critical problems in sustainability, finance, and healthcare. Network, learn, and create impactful projects that could change the world.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 21,
-        "title": "Hackathon 6075",
-        "img": "https://random.image.tech/hackathon_94.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-09",
-        "end-date": "2025-01-16",
-        "fee": 700,
-        "mode": "Offline",
-        "location": "Bangalore",
-        "team-size": 4,
-        "participate-teams": 42,
-        "registration-last-date": "2025-01-08",
-        "winner": "Team 386",
-        "organized-By": "sriRam1008",
-        "register-users": [
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_55.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_144.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_284.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_385.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "upcoming"
+  },
+  {
+    "id": 21,
+    "title": "GreenTech Hack",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Collaborate and create groundbreaking solutions",
+    "start-date": "2025-01-10",
+    "end-date": "2025-01-13",
+    "fee": 700,
+    "mode": "Hybride",
+    "location": "Delhi",
+    "team-size": 2,
+    "participate_teams": 27,
+    "registration_last_date": "2025-01-09",
+    "winner": "Team Beta",
+    "organized-By": "test1008",
+    "register-users": ["rama1008", "test1008", "yash1008", "sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 22,
-        "title": "Hackathon 4829",
-        "img": "https://random.image.tech/hackathon_62.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-06",
-        "end-date": "2025-01-13",
-        "fee": 100,
-        "mode": "Hybrid",
-        "location": "Delhi",
-        "team-size": 2,
-        "participate-teams": 45,
-        "registration-last-date": "2025-01-05",
-        "winner": "Team 746",
-        "organized-By": "test1008",
-        "register-users": [
-            "yash1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_17.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_179.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_218.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_351.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 22,
+    "title": "BlockWave",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Design and develop scalable tech products",
+    "start-date": "2025-01-09",
+    "end-date": "2025-01-12",
+    "fee": "Free",
+    "mode": "Online",
+    "location": "Bangalore",
+    "team-size": 3,
+    "participate_teams": 51,
+    "registration_last_date": "2025-01-08",
+    "winner": "Team Beta",
+    "organized-By": "sriRam1008",
+    "register-users": ["yash1008", "rama1008", "test1008", "sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 23,
-        "title": "Hackathon 3809",
-        "img": "https://random.image.tech/hackathon_93.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-04",
-        "end-date": "2025-01-16",
-        "fee": 700,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 3,
-        "participate-teams": 64,
-        "registration-last-date": "2025-01-03",
-        "winner": "Team 658",
-        "organized-By": "sriRam1008",
-        "register-users": [
-            "test1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_35.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_140.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_205.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_322.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 23,
+    "title": "TechNova Buildathon",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Solve complex tech challenges with creativity",
+    "start-date": "2025-01-08",
+    "end-date": "2025-01-11",
+    "fee": 200,
+    "mode": "Online",
+    "location": "Noida",
+    "team-size": 3,
+    "participate_teams": 50,
+    "registration_last_date": "2025-01-07",
+    "winner": "Team Epsilon",
+    "organized-By": "test1008",
+    "register-users": ["yash1008", "test1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 24,
-        "title": "Hackathon 5219",
-        "img": "https://random.image.tech/hackathon_49.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-04",
-        "end-date": "2025-01-15",
-        "fee": 100,
-        "mode": "Offline",
-        "location": "Delhi",
-        "team-size": 4,
-        "participate-teams": 81,
-        "registration-last-date": "2025-01-03",
-        "winner": "Team 368",
-        "organized-By": "rama1008",
-        "register-users": [
-            "test1008",
-            "yash1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_16.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_117.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_263.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_303.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 24,
+    "title": "CloudCrafter",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Innovate, learn, and build amazing projects",
+    "start-date": "2025-01-08",
+    "end-date": "2025-01-09",
+    "fee": "Free",
+    "mode": "Online",
+    "location": "Noida",
+    "team-size": 2,
+    "participate_teams": 92,
+    "registration_last_date": "2025-01-07",
+    "winner": "Team Delta",
+    "organized-By": "rama1008",
+    "register-users": ["sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 25,
-        "title": "Hackathon 3110",
-        "img": "https://random.image.tech/hackathon_64.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-09",
-        "end-date": "2025-01-12",
-        "fee": "Free",
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 5,
-        "participate-teams": 85,
-        "registration-last-date": "2025-01-08",
-        "winner": "Team 826",
-        "organized-By": "rama1008",
-        "register-users": [
-            "sriRam1008",
-            "yash1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_81.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_156.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_230.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_303.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 25,
+    "title": "HackX Innovate",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Build, learn, and win exciting prizes",
+    "start-date": "2025-01-11",
+    "end-date": "2025-01-15",
+    "fee": 1000,
+    "mode": "Hybride",
+    "location": "Bangalore",
+    "team-size": 5,
+    "participate_teams": 60,
+    "registration_last_date": "2025-01-10",
+    "winner": "Team Delta",
+    "organized-By": "sriRam1008",
+    "register-users": ["rama1008", "yash1008", "test1008", "sriRam1008"],
+    "about": "Join us for an immersive 48-hour hackathon where creativity meets technology. Participants will have access to cutting-edge tools and mentors, with prizes for the most innovative and impactful solutions.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 26,
-        "title": "Hackathon 9351",
-        "img": "https://random.image.tech/hackathon_98.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-06",
-        "end-date": "2025-01-15",
-        "fee": 700,
-        "mode": "Online",
-        "location": "Online",
-        "team-size": 4,
-        "participate-teams": 90,
-        "registration-last-date": "2025-01-05",
-        "winner": "Team 968",
-        "organized-By": "sriRam1008",
-        "register-users": [
-            "test1008",
-            "yash1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_15.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_141.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_211.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_349.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 26,
+    "title": "BlockWave",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Design and develop scalable tech products",
+    "start-date": "2025-01-10",
+    "end-date": "2025-01-12",
+    "fee": 200,
+    "mode": "Offline",
+    "location": "Noida",
+    "team-size": 3,
+    "participate_teams": 57,
+    "registration_last_date": "2025-01-09",
+    "winner": "Team Epsilon",
+    "organized-By": "test1008",
+    "register-users": ["sriRam1008", "rama1008", "test1008"],
+    "about": "In this hackathon, participants will tackle real-world challenges, develop solutions, and present them to top-tier industry experts. Whether you're a beginner or a seasoned coder, there's something for everyone!",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 27,
-        "title": "Hackathon 1061",
-        "img": "https://random.image.tech/hackathon_12.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-04",
-        "end-date": "2025-01-12",
-        "fee": 200,
-        "mode": "Hybrid",
-        "location": "Chennai",
-        "team-size": 3,
-        "participate-teams": 87,
-        "registration-last-date": "2025-01-03",
-        "winner": "Team 121",
-        "organized-By": "rama1008",
-        "register-users": [
-            "yash1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_18.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_174.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_254.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_377.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 27,
+    "title": "TechExplorer",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Compete with the best minds in tech",
+    "start-date": "2025-01-08",
+    "end-date": "2025-01-09",
+    "fee": 700,
+    "mode": "Offline",
+    "location": "Chennai",
+    "team-size": 3,
+    "participate_teams": 50,
+    "registration_last_date": "2025-01-07",
+    "winner": "Team Beta",
+    "organized-By": "yash1008",
+    "register-users": ["test1008", "yash1008", "sriRam1008"],
+    "about": "This hackathon offers an exciting opportunity for developers, designers, and tech enthusiasts to come together and build innovative solutions. Participants will engage in hands-on sessions, network with industry leaders, and showcase their projects to a panel of expert judges.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
     },
-    {
-        "id": 28,
-        "title": "Hackathon 6212",
-        "img": "https://random.image.tech/hackathon_58.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-05",
-        "end-date": "2025-01-15",
-        "fee": 1000,
-        "mode": "Hybrid",
-        "location": "Delhi",
-        "team-size": 3,
-        "participate-teams": 67,
-        "registration-last-date": "2025-01-04",
-        "winner": "Team 624",
-        "organized-By": "test1008",
-        "register-users": [
-            "rama1008",
-            "test1008",
-            "yash1008",
-            "sriRam1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_42.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_158.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_205.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_306.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 28,
+    "title": "CyberHack Arena",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Create solutions that shape the future",
+    "start-date": "2025-01-08",
+    "end-date": "2025-01-10",
+    "fee": 200,
+    "mode": "Hybride",
+    "location": "Chennai",
+    "team-size": 3,
+    "participate_teams": 55,
+    "registration_last_date": "2025-01-07",
+    "winner": "Team Alpha",
+    "organized-By": "rama1008",
+    "register-users": ["rama1008", "sriRam1008", "test1008", "yash1008"],
+    "about": "Bring your ideas to life in this weekend-long hackathon focused on solving critical problems in sustainability, finance, and healthcare. Network, learn, and create impactful projects that could change the world.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 30000,
+      "second": 15000,
+      "third": 5000
     },
-    {
-        "id": 29,
-        "title": "Hackathon 4542",
-        "img": "https://random.image.tech/hackathon_72.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-10",
-        "end-date": "2025-01-12",
-        "fee": 500,
-        "mode": "Offline",
-        "location": "Mumbai",
-        "team-size": 4,
-        "participate-teams": 65,
-        "registration-last-date": "2025-01-09",
-        "winner": "Team 920",
-        "organized-By": "sriRam1008",
-        "register-users": [
-            "sriRam1008",
-            "yash1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_45.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_121.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_298.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_379.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
+    "status": "current"
+  },
+  {
+    "id": 29,
+    "title": "CryptoConquer Hack",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Innovate, learn, and build amazing projects",
+    "start-date": "2025-01-10",
+    "end-date": "2025-01-13",
+    "fee": "Free",
+    "mode": "Hybride",
+    "location": "Chennai",
+    "team-size": 3,
+    "participate_teams": 12,
+    "registration_last_date": "2025-01-09",
+    "winner": "Team Beta",
+    "organized-By": "rama1008",
+    "register-users": ["test1008", "yash1008", "sriRam1008"],
+    "about": "Bring your ideas to life in this weekend-long hackathon focused on solving critical problems in sustainability, finance, and healthcare. Network, learn, and create impactful projects that could change the world.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 50000,
+      "second": 25000,
+      "third": 10000
     },
-    {
-        "id": 30,
-        "title": "Hackathon 9568",
-        "img": "https://random.image.tech/hackathon_69.jpg",
-        "short-description": "A thrilling tech hackathon event",
-        "start-date": "2025-01-05",
-        "end-date": "2025-01-15",
-        "fee": "Free",
-        "mode": "Hybrid",
-        "location": "Mumbai",
-        "team-size": 2,
-        "participate-teams": 42,
-        "registration-last-date": "2025-01-04",
-        "winner": "Team 352",
-        "organized-By": "test1008",
-        "register-users": [
-            "yash1008",
-            "sriRam1008",
-            "rama1008"
-        ],
-        "about": "Join this hackathon to learn, innovate, and showcase your coding prowess. Participants will work on real-world problems, build exciting projects, and compete for amazing prizes. A perfect opportunity for tech enthusiasts to network, collaborate, and enhance their skills.",
-        "jury": [
-            {
-                "img": "https://random.image.tech/person_73.jpg",
-                "fullName": "Jaga Das"
-            },
-            {
-                "img": "https://random.image.tech/person_189.jpg",
-                "fullName": "Kuldeep Tiwari"
-            },
-            {
-                "img": "https://random.image.tech/person_279.jpg",
-                "fullName": "Sonu Nayak"
-            },
-            {
-                "img": "https://random.image.tech/person_351.jpg",
-                "fullName": "Rupesh Jha"
-            }
-        ],
-        "price": [
-            {
-                "first": "100000"
-            },
-            {
-                "second": "50000"
-            },
-            {
-                "third": "25000"
-            }
-        ],
-        "status": "current"
-    }
+    "status": "current"
+  },
+  {
+    "id": 30,
+    "title": "AppThon 2.0",
+    "img": "https://via.placeholder.com/150",
+    "short-description": "Create solutions that shape the future",
+    "start-date": "2025-01-09",
+    "end-date": "2025-01-12",
+    "fee": 700,
+    "mode": "Online",
+    "location": "Noida",
+    "team-size": 3,
+    "participate_teams": 43,
+    "registration_last_date": "2025-01-08",
+    "winner": "Team Zeta",
+    "organized-By": "yash1008",
+    "register-users": ["rama1008", "yash1008", "sriRam1008"],
+    "about": "A platform for tech minds to collaborate, learn, and innovate. Work in teams to develop solutions across various domains like AI, IoT, blockchain, and cloud computing. Expand your skills and gain recognition in the tech community.",
+    "jury": [
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Jaga Das"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Kuldeep Tiwari"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Sonu Nayak"
+      },
+      {
+        "img": "https://via.placeholder.com/150",
+        "fullName": "Rupesh Jha"
+      }
+    ],
+    "price": {
+      "first": 100000,
+      "second": 50000,
+      "third": 25000
+    },
+    "status": "current"
+  }
 ]

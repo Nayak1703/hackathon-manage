@@ -6,7 +6,6 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import styles from "./Navbar.module.css";
 
 const Navbar = ({ isLoggedIn, pageName }) => {
-  console.log(isLoggedIn, pageName);
   const theme = useTheme();
 
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
