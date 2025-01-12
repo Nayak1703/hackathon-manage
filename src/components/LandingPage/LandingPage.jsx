@@ -4,6 +4,8 @@ import hackathons from "../../db/hackathonList.json";
 import users from "../../db/users.json";
 import HeroSection from "../HeroSection/HeroSection.jsx";
 import LandingPageCards from "../LandingPageCards/LandingPageCards.jsx";
+import Footer from "../Footer/Footer.jsx";
+import { ScrollProvider } from "../Scroll/ScrollContext.jsx";
 
 const LandingPage = () => {
   const [isLoggedIn, setIsLoggedIn] = useState("false");
@@ -52,6 +54,7 @@ const LandingPage = () => {
   return (
     <>
       <Navbar isLoggedIn={isLoggedIn} pageName={"landing"} />
+      <ScrollProvider>
       <HeroSection />
       <LandingPageCards
         ogHackathonsList={ogHackathonsList}
@@ -61,6 +64,9 @@ const LandingPage = () => {
         referenceFilterList={referenceFilterList}
         setSelectedTab={setSelectedTab}
       />
+      </ScrollProvider>
+
+      <Footer/>
     </>
   );
 };

@@ -1,0 +1,123 @@
+.card_parent * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.card_parent {
+  background-color: #eabe6c;
+  border-radius: 15px;
+  width: 320px;
+  height: 480px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card_parent:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card_media {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  height: 180px;
+  position: relative;
+}
+.card_media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_chip {
+  background-color: #891652;
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.card_chip p {
+  padding: 7px;
+  color: #ffedd8;
+}
+
+.card_info {
+  color: #240a34;
+  padding: 10px 20px !important;
+}
+
+.card_head h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card_desc {
+  padding-bottom: 10px !important;
+}
+.card_desc p {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.card_duration,
+.card_fmt, .card_team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_event_start p,
+.card_event_end p,
+.card_event_fee p,
+.card_event_loc p,
+.card_event_loc p,
+.card_event_price p,
+.card_team_size p,
+.card_team_participate p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.card_event_start p span,
+.card_event_end p span,
+.card_event_fee p span,
+.card_event_loc p span,
+.card_event_loc p span,
+.card_event_price p span,
+.card_team_size p span,
+.card_team_participate p span {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+.card_extraInfo{
+    padding-top: 10px !important;
+}
+.card_org {
+    padding-bottom: 15px !important;
+}
+.card_extraInfo p, .card_org p {
+    font-weight: 600;
+    font-style: italic;
+}
+.card_extraInfo p span, .card_org p span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card_btn {
+    background-color:#240a34;
+    color: #ffedd8;
+    padding: 10px !important;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.card_btn:hover {
+    background-color:#3a1b4d;
+    transition: 0.3s ease-out;
+}

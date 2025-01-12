@@ -1,10 +1,20 @@
-import React from "react";
+import React,{useContext} from "react";
 import Button from "@mui/material/Button";
 import AddIcon from "@mui/icons-material/Add";
 import styles from "./HeroSection.module.css";
 import Animation from "./animation/Animation.jsx"
+import { ScrollContext } from "../Scroll/ScrollContext.jsx";
 
 const HeroSection = () => {
+
+  const divRef = useContext(ScrollContext);
+
+  const scrollToDiv = () => {
+    if (divRef.current) {
+      divRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className={styles.heroSection_parent}>
       <div className={styles.heroSection_content}>
@@ -35,6 +45,7 @@ const HeroSection = () => {
               color: "#FFEDD8",
             }}
             className={styles.heroSection_exp_btn}
+            onClick={scrollToDiv}
           >
             Explore Hackathon
           </Button>

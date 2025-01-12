@@ -1,0 +1,76 @@
+/* .heroSection_info_heading_text {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #FBF5E5;
+    font-family: "Poppins", serif
+} */
+
+.footer * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.info_heading_text {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #FFEDD8;
+    font-weight: 600;
+}
+
+.info_Subhead_text {
+    color: #EABE6C;
+}
+
+
+
+.footer {
+    background-color: #240A34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  
+  .footerDes {
+    color: #c79de0;
+    font-weight: 500;
+  }
+  
+  .footerMsg {
+    font-weight: 600;
+    color: #c79de0;
+    margin: 0;
+  }
+
+  .footerCre {
+    color: #dddddd !important;
+    font-style: italic;
+    font-size: 0.7rem;
+  }
+  .socailMediaLink > * {
+    padding-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FBF5E5;
+  }
+  .socailMediaLink > *:hover {
+    color: #FF005C !important;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .navbarParent {
+        padding: 1rem;
+    }
+    .navbarBrandNamae {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+    .navbarBtns > * {
+        padding: 5px !important;
+    }
+}
+  

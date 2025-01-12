@@ -1,10 +1,13 @@
-import React, { useEffect, useState } from "react";
-import Box from "@mui/material/Box";
+import React, { useEffect, useState, useContext } from "react";
 import TabComponent from "../Tabs/TabComponent.jsx";
 import SearchComponent from "../SearchComponent/SearchComponent.jsx";
 import DropDown from "../DropDownComponent/DropDown.jsx";
-import Card from "../Card/Card.jsx"
+import Pagination from "@mui/material/Pagination";
+import Card from "../Card/Card.jsx";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 import styles from "./LandingPageCards.module.css";
+import { ScrollContext } from "../Scroll/ScrollContext.jsx"
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -17,7 +20,7 @@ function CustomTabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
+      {value === index && <div className={styles.cardsOuter}>{children}</div>}
     </div>
   );
 }
@@ -29,11 +32,16 @@ const LandingPageCards = ({
   referenceFilterList,
   setSelectedTab,
 }) => {
+  const theme = useTheme();
+
   const [title, setTitle] = useState("");
   const [mode, setMode] = useState("");
   const [location, setLocation] = useState("");
   const [sortBy, setSortBy] = useState("");
-  const [dropDownFilter, setDropDownFilter] = useState([]);
+  const [cardListByPage, setcardListByPage] = useState([]);
+  const [selectedPage, setSelectedPage] = React.useState(1);
+
+  const divRef = useContext(ScrollContext)
 
   function clearFilterbtn() {
     setMode("");
@@ -42,8 +50,20 @@ const LandingPageCards = ({
     setTitle("");
   }
 
+  const isXs = useMediaQuery(theme.breakpoints.down("sm"));
+  const handlePageChange = (event, value) => {
+    setSelectedPage(value);
+    getCardByPage(value, filterHackathonsList);
+  };
+  const getCardByPage = (pageNo, cardData) => {
+    const getCardData = cardData;
+    const CardDataByPage = getCardData.slice((pageNo - 1) * 6, 6 * pageNo);
+    setcardListByPage(CardDataByPage);
+  };
+
+
   useEffect(() => {
-    console.log(filterHackathonsList);
+    getCardByPage(selectedPage, filterHackathonsList);
   }, [filterHackathonsList]);
 
   useEffect(() => {
@@ -147,15 +167,48 @@ const LandingPageCards = ({
           <p>Clear all</p>
         </div>
       </div>
-      <div className={styles.cards_section_filter_selected_parent}></div>
-      <div className={styles.cards_section_cards}>
+      <div className={styles.cards_section_pagination}>
+        <Pagination
+          count={Math.ceil(filterHackathonsList.length / 6)}
+          page={selectedPage}
+          onChange={handlePageChange}
+          size={isXs ? "small" : ""}
+          sx={{
+            "& .MuiButtonBase-root, .MuiPaginationItem-ellipsis": {
+              color: "#FFEDD8",
+            },
+            "& .Mui-selected": {
+              backgroundColor: "#bb3d7e !important",
+              color: "#FFEDD8",
+            },
+          }}
+        />
+      </div>
+      <div className={styles.cards_section_cards} ref={divRef} >
         {selectedTab === 0 ? (
           <CustomTabPanel
             value={selectedTab}
             sx={{ textDecoration: "none" }}
             index={0}
           >
-            Item One
+            {cardListByPage.map((ele) => (
+              <Card
+                id={ele.id}
+                img={ele.img}
+                loc={ele.location}
+                title={ele.title}
+                desc={ele.short_description}
+                start={ele.start_date}
+                end={ele.end_date}
+                teams={ele.participate_teams}
+                size={ele.team_size}
+                prize={ele.price.first}
+                mode={ele.mode}
+                fee={ele.fee}
+                org={ele.organized_By}
+                win_lDate={ele.winner ? ele.winner : ele.registration_last_date}
+              />
+            ))}
           </CustomTabPanel>
         ) : selectedTab === 1 ? (
           <CustomTabPanel
@@ -163,7 +216,24 @@ const LandingPageCards = ({
             sx={{ textDecoration: "none" }}
             index={1}
           >
-            Item Two
+            {cardListByPage.map((ele) => (
+              <Card
+                id={ele.id}
+                img={ele.img}
+                loc={ele.location}
+                title={ele.title}
+                desc={ele.short_description}
+                start={ele.start_date}
+                end={ele.end_date}
+                teams={ele.participate_teams}
+                size={ele.team_size}
+                prize={ele.price.first}
+                mode={ele.mode}
+                fee={ele.fee}
+                org={ele.organized_By}
+                win_lDate={ele.winner ? ele.winner : ele.registration_last_date}
+              />
+            ))}
           </CustomTabPanel>
         ) : (
           <CustomTabPanel
@@ -171,7 +241,24 @@ const LandingPageCards = ({
             sx={{ textDecoration: "none" }}
             index={2}
           >
-            Item Three
+            {cardListByPage.map((ele) => (
+              <Card
+                id={ele.id}
+                img={ele.img}
+                loc={ele.location}
+                title={ele.title}
+                desc={ele.short_description}
+                start={ele.start_date}
+                end={ele.end_date}
+                teams={ele.participate_teams}
+                size={ele.team_size}
+                prize={ele.price.first}
+                mode={ele.mode}
+                fee={ele.fee}
+                org={ele.organized_By}
+                win_lDate={ele.winner ? ele.winner : ele.registration_last_date}
+              />
+            ))}
           </CustomTabPanel>
         )}
       </div>
