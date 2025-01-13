@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+Hackathrone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hackathrone is a hackathon website project developed as part of an assignment. The goal was to create a functional and visually appealing hackathon platform.
 
-## Available Scripts
+Live Demo
 
-In the project directory, you can run:
+You can check out the live version of the project here: Hackathrone Live
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Login/Register Functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users can register and log in.
 
-### `npm test`
+User information is stored in local storage.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Local storage is extensively used as a temporary database.
 
-### `npm run build`
+Custom User List and Card Display
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A custom JSON list is used to fetch and display user details on cards.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Users are displayed in a modern card UI.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tabs, Dropdown, and Search Functionality
 
-### `npm run eject`
+Users can filter cards using tabs, dropdowns, and a search feature.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Modern Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The website incorporates animations and modern color schemes to enhance user experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React
 
-## Learn More
+Material-UI
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+JavaScript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+CSS
 
-### Code Splitting
+Test User Credentials
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To test the website, you can use the following user credentials:
 
-### Analyzing the Bundle Size
+{
+    "id": 1,
+    "fullName": "Test User",
+    "email": "test123@hireMe.com",
+    "username": "test1008",
+    "password": "Test@1234"
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+How It Works
 
-### Making a Progressive Web App
+User Registration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+When a user registers, their information is stored in local storage.
 
-### Advanced Configuration
+This allows the user to log in later using their credentials.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Fetching and Displaying Data
 
-### Deployment
+A list of users is fetched from a custom JSON object and displayed as cards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Dynamic Filtering
 
-### `npm run build` fails to minify
+Users can filter displayed cards using tabs, dropdown menus, and a search bar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future Implementations
+
+Although I tried my best to fulfill the given requirements within the assigned time, some features are yet to be implemented. I learned a lot from this assignment and have plans for future improvements:
+
+User Profile Page
+
+Add a detailed user profile page.
+
+Detailed Card Page
+
+Provide more details on the card display page.
+
+Full-Stack Conversion
+
+Replace local storage with a proper backend using MongoDB or Firebase.
+
+Make the project a full-stack application.
+
+What I Learned
+
+Building a frontend project using React and Material-UI.
+
+Implementing user authentication and storing data in local storage.
+
+Creating a user-friendly interface with animations and modern UI components.
+
+Handling tabs, dropdowns, and search functionality efficiently.
