@@ -1,0 +1,72 @@
+.createHackathon * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif
+}
+
+.createHackathon {
+    padding: 30px 20px !important;
+}
+.createHackathon h1 {
+    color: #c79de0;
+    font-weight: 600;
+}
+.createHackathon p {
+    padding-bottom: 40px;
+    color: #FFEDD8;
+}
+
+.formContainer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EABE6C;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ .formContainer h2 {
+    text-align: center;
+    color: #240A34;
+    margin-bottom: 20px;
+}
+
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formContainer form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #333;
+}
+
+.formContainer form label input,
+.formContainer form label textarea,
+.formContainer form label select {
+    padding: 10px;
+    border: 1px solid #EABE6C;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formContainer form button {
+    padding: 12px;
+    background-color: #240A34;
+    color: white;
+    font-size: 1.2rem;
+    font-weight:600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.formContainer form button:hover {
+    background-color: #673599;
+}

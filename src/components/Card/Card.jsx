@@ -82,7 +82,7 @@ const Card = ({
         </div>
 
         <div className={styles.card_extraInfo}>
-          {isValidDate(win_lDate) ? (
+          {isValidDate(win_lDate)  ? (
             <p>
               Last Date: <span>{convertDate(win_lDate)}</span>
             </p>

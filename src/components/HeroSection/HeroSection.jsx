@@ -1,5 +1,6 @@
 import React,{useContext} from "react";
 import Button from "@mui/material/Button";
+import { useNavigate, useParams, Link } from "react-router-dom";
 import AddIcon from "@mui/icons-material/Add";
 import styles from "./HeroSection.module.css";
 import Animation from "./animation/Animation.jsx"
@@ -8,12 +9,23 @@ import { ScrollContext } from "../Scroll/ScrollContext.jsx";
 const HeroSection = () => {
 
   const divRef = useContext(ScrollContext);
+  let navigate = useNavigate();
 
   const scrollToDiv = () => {
     if (divRef.current) {
       divRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const handleCreateHackathon = () => {
+    let isUserLoggedIn = localStorage.getItem("loggedInUser")
+    if (isUserLoggedIn === "" || isUserLoggedIn === null) {
+      alert("Loggin required")
+      navigate("/login")
+    } else {
+      navigate("/createHackathon")
+    }
+  }
 
   return (
     <div className={styles.heroSection_parent}>
@@ -60,6 +72,7 @@ const HeroSection = () => {
             }}
             className={styles.heroSection_exp_btn}
             endIcon={<AddIcon />}
+            onClick={handleCreateHackathon}
           >
             Organize Hackathon
           </Button>
