@@ -8,8 +8,8 @@
 .card_parent {
   background-color: #eabe6c;
   border-radius: 15px;
-  width: 320px;
-  height: 480px;
+  width: 350px;
+  height: 500px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -63,32 +63,16 @@
   opacity: 0.7;
 }
 
-.card_duration,
-.card_fmt, .card_team {
+.card_details {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-.card_event_start p,
-.card_event_end p,
-.card_event_fee p,
-.card_event_loc p,
-.card_event_loc p,
-.card_event_price p,
-.card_team_size p,
-.card_team_participate p {
+.card_details p {
+  font-weight: 600;
   font-size: 0.9rem;
-  font-weight: 500;
 }
-.card_event_start p span,
-.card_event_end p span,
-.card_event_fee p span,
-.card_event_loc p span,
-.card_event_loc p span,
-.card_event_price p span,
-.card_team_size p span,
-.card_team_participate p span {
-  opacity: 0.7;
+.card_details p span {
+  font-weight: 400;
   font-size: 0.8rem;
 }
 
@@ -108,6 +92,7 @@
 }
 
 .card_btn {
+  position: relative;
     background-color:#240a34;
     color: #ffedd8;
     padding: 10px !important;
@@ -121,3 +106,12 @@
     background-color:#3a1b4d;
     transition: 0.3s ease-out;
 }
+
+.card_btn:hover span{
+  display: none;
+}
+
+.card_btn:hover:before{
+  content: "View Details";
+}
+

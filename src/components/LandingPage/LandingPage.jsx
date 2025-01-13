@@ -41,8 +41,8 @@ const LandingPage = () => {
 
   useEffect(() => {
     function getDataFromLocalStorage() {
-      const userId = localStorage.getItem("userId");
-      if (userId === "" || userId === null) {
+      const isUserLoggedIn = localStorage.getItem("loggedInUser");
+      if (isUserLoggedIn === "" || isUserLoggedIn === null) {
         setIsLoggedIn(false);
       } else {
         setIsLoggedIn(true);

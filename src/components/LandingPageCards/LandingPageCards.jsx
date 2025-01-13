@@ -207,6 +207,7 @@ const LandingPageCards = ({
                 fee={ele.fee}
                 org={ele.organized_By}
                 win_lDate={ele.winner ? ele.winner : ele.registration_last_date}
+                status={ele.status}
               />
             ))}
           </CustomTabPanel>
@@ -232,6 +233,7 @@ const LandingPageCards = ({
                 fee={ele.fee}
                 org={ele.organized_By}
                 win_lDate={ele.winner ? ele.winner : ele.registration_last_date}
+                status={ele.status}
               />
             ))}
           </CustomTabPanel>
@@ -257,6 +259,7 @@ const LandingPageCards = ({
                 fee={ele.fee}
                 org={ele.organized_By}
                 win_lDate={ele.winner ? ele.winner : ele.registration_last_date}
+                status={ele.status}
               />
             ))}
           </CustomTabPanel>

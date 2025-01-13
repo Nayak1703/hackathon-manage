@@ -15,6 +15,7 @@ const Card = ({
   fee,
   org,
   win_lDate,
+  status
 }) => {
   function convertDate(dateStr) {
     const date = new Date(dateStr);
@@ -52,46 +53,30 @@ const Card = ({
         <div className={styles.card_desc}>
           <p>{desc}</p>
         </div>
-
-        <div className={styles.card_duration}>
-          <div className={styles.card_event_start}>
+        <div className={styles.card_details}>
+          <div className={styles.details_left}>
             <p>
               Start: <span>{convertDate(start)}</span>
             </p>
-          </div>
-          <div className={styles.card_event_end}>
-            <p>
-              End: <span>{convertDate(end)}</span>
-            </p>
-          </div>
-        </div>
-        <div className={styles.card_team}>
-          <div className={styles.card_team_participate}>
-            <p>
-              Participate Teams: <span>{teams}</span>
-            </p>
-          </div>
-          <div className={styles.card_event_price}>
-            <p>
-              Price: <span>{indianRupee(prize)}</span>
-            </p>
-          </div>
-        </div>
-        <div className={styles.card_fmt}>
-          <div className={styles.card_event_loc}>
             <p>
               loc: <span>{loc}</span>
             </p>
+            <p>
+              Team Size: <span>{size}</span>
+            </p>
           </div>
-          <div className={styles.card_event_fee}>
+          <div className={styles.details_right}>
+            <p>
+              End: <span>{convertDate(end)}</span>
+            </p>
             <p>
               Fee: <span>{indianRupee(fee)}</span>
             </p>
-          </div>
-
-          <div className={styles.card_team_size}>
             <p>
-              Team Size: <span>{size}</span>
+              Price: <span>{indianRupee(prize)}</span>
+            </p>
+            <p>
+              Participate Teams: <span>{teams}+</span>
             </p>
           </div>
         </div>
@@ -99,7 +84,7 @@ const Card = ({
         <div className={styles.card_extraInfo}>
           {isValidDate(win_lDate) ? (
             <p>
-              Registration Last Date: <span>{convertDate(win_lDate)}</span>
+              Last Date: <span>{convertDate(win_lDate)}</span>
             </p>
           ) : (
             <p>
@@ -113,7 +98,7 @@ const Card = ({
           </p>
         </div>
         <div className={styles.card_btn}>
-          <p>Register Now</p>
+          <p><span>{status==="upcoming"?"Registration Open":"Registration closed"}</span></p>
         </div>
       </div>
     </div>

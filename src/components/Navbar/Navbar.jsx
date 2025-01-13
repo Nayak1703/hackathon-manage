@@ -10,7 +10,12 @@ const Navbar = ({ isLoggedIn, pageName }) => {
   const theme = useTheme();
 
   let navigate = useNavigate();
-  const { userId } = useParams();
+  // const { userId } = useParams();
+
+  const handleLogout = (e) => {
+    localStorage.removeItem("loggedInUser")
+    navigate("/login")
+  }
 
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -77,7 +82,7 @@ const Navbar = ({ isLoggedIn, pageName }) => {
                 </Button>
               </Link>
 
-              <Link to="/" style={{ textDecoration: "none" }}>
+
                 <Button
                   variant="outlined"
                   sx={{
@@ -87,10 +92,11 @@ const Navbar = ({ isLoggedIn, pageName }) => {
                   }}
                   {...buttonProps}
                   className={styles.logoutBtn}
+                  onClick={handleLogout}
                 >
                   Logout
                 </Button>
-              </Link>
+
             </>
           ) : (
             <Link to="/" style={{ textDecoration: "none" }}>

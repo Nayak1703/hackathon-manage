@@ -1,0 +1,90 @@
+.register *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* min-height: 100vh; */
+}
+.regMedia {
+    width: 40%;
+}
+
+.regContent {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reginBox{
+    width: 60%;
+}
+
+.regContent h1 {
+    font-size: 3rem;
+    color: #c79de0;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.regForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px
+}
+.regInput {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 10px;
+    border: 2px solid #891652;
+    font-size: 1.2rem;
+    color: #891652;
+    background-color: #FBF5E5;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.regForm button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #891652;
+    color: #FBF5E5;
+}
+.regForm button:hover {
+    background-color: #bb3d7e;
+}
+
+
+@media screen and (max-width: 900px) {
+}
+
+
+@media screen and (max-width: 600px) {
+    .register {
+        display: block;
+    }
+    .regMedia {
+        width: 80%;
+        margin: auto;
+    }
+    .regContent {
+        width: 100%;
+        margin: auto
+    }
+    .reginBox{
+        width: 100%;
+        padding: 0;
+    }
+}

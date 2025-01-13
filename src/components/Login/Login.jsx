@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer.jsx";
@@ -26,7 +26,7 @@ const Login = () => {
     );
 
     if (user) {
-      localStorage.setItem("userId", user.id);
+      localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert("Login successful!");
       navigate("/");
     } else {
