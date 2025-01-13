@@ -18,6 +18,9 @@ You can check out the live version of the project here: [Hackathrone Live](https
 - **Tabs, Dropdown, and Search Functionality**
   - Users can filter cards using tabs, dropdowns, and a search feature.
 
+- **Pagination**
+  - Added pagination to improve the user experience when browsing a large number of cards.
+
 - **Modern Design**
   - The website incorporates animations and modern color schemes to enhance user experience.
 
@@ -50,6 +53,9 @@ To test the website, you can use the following user credentials:
 3. **Dynamic Filtering**
    - Users can filter displayed cards using tabs, dropdown menus, and a search bar.
 
+4. **Pagination**
+   - Pagination ensures that only a limited number of cards are shown per page, enhancing performance and usability.
+
 ## Future Implementations
 Although I tried my best to fulfill the given requirements within the assigned time, some features are yet to be implemented. I learned a lot from this assignment and have plans for future improvements:
 
@@ -67,10 +73,10 @@ Although I tried my best to fulfill the given requirements within the assigned t
 - Building a frontend project using React and Material-UI.
 - Implementing user authentication and storing data in local storage.
 - Creating a user-friendly interface with animations and modern UI components.
-- Handling tabs, dropdowns, and search functionality efficiently.
+- Handling tabs, dropdowns, search functionality, and pagination efficiently.
 
 ## Conclusion
-Hackathrone is a fully functional hackathon platform with essential features like user registration, login, card display, and filtering. While there is room for further improvements, this project was a great learning experience and provided valuable insight into frontend development.
+Hackathrone is a fully functional hackathon platform with essential features like user registration, login, card display, filtering, and pagination. While there is room for further improvements, this project was a great learning experience and provided valuable insight into frontend development.
 
 ---
 
